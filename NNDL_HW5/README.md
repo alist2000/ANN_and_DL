@@ -131,21 +131,6 @@ To get a local copy up and running, follow these simple steps.
 
 ---
 
-## Usage
-
-The project is organized into Jupyter notebooks. It is recommended to run them in the following order:
-
-1.  **`HW5_1_Data_Preprocessing_and_Single_Step.ipynb`**:
-    * This notebook contains the code for outlier detection, training the denoising Autoencoder, and training/evaluating the MLP, RNN, and Transformer models for single-step forecasting.
-
-2.  **`HW5_1_Multi_Step_Transformer.ipynb`**:
-    * This notebook focuses on implementing and evaluating the Transformer model for multi-step forecasting (t+4, t+8, t+16).
-
-3.  **`HW5_1_Slime_Mould_Optimization.ipynb`** (Optional/Bonus):
-    * This notebook demonstrates how to use the Slime Mould Algorithm to find optimal hyperparameters for the Transformer model.
-
----
-
 ## License
 
 Distributed under the MIT License. See `LICENSE.txt` for more information.
